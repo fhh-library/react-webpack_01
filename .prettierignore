@@ -1,0 +1,8 @@
+# 需要忽略的格式化代码文件
+package.json
+dist
+node_modules
+src/assets
+.idea
+README.md
+.gitignore
