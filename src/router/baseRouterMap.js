@@ -2,13 +2,13 @@
  * @Author: fuyiwei 1157704750@qq.com
  * @Date: 2024-12-14 16:13:16
  * @LastEditors: fuyiwei 1157704750@qq.com
- * @LastEditTime: 2024-12-14 19:52:00
+ * @LastEditTime: 2024-12-15 12:44:56
  * @FilePath: \github\react-webpack_01\src\router\baseRouterMap.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import React, { lazy } from "react";
 import { Navigate } from "react-router-dom";
-import { buildRoutes } from './buildRoutes';
+import { buildRoutes } from './routerTool';
 
 // import LoginPage from "@pages/LoginPage";
 // import LayoutPage from "@pages/LayoutPage";
