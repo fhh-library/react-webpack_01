@@ -2,7 +2,7 @@
  * @Author: fuyiwei fuyiwei@croot.com
  * @Date: 2024-11-29 20:26:56
  * @LastEditors: fuyiwei 1157704750@qq.com
- * @LastEditTime: 2024-12-15 01:11:50
+ * @LastEditTime: 2024-12-15 18:04:13
  * @FilePath: \l\architecture\02\build\webpack.dev.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -39,6 +39,11 @@ module.exports = merge(baseConfig, {
         context: ['/api'],
         target: 'http://localhost:3000',
         pathRewrite: { '^/api': '' },
+      },
+      {
+        context: ['/pcw'],
+        target: 'https://pcw-api.iqiyi.com',
+        pathRewrite: { '^/pcw': '' },
       },
     ],
   },

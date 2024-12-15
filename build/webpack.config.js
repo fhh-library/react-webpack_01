@@ -1,8 +1,8 @@
 /*
  * @Author: fuyiwei fuyiwei@croot.com
  * @Date: 2024-11-29 15:11:36
- * @LastEditors: fuyiwei fuyiwei@croot.com
- * @LastEditTime: 2024-11-29 21:11:38
+ * @LastEditors: fuyiwei 1157704750@qq.com
+ * @LastEditTime: 2024-12-15 15:59:42
  * @FilePath: \l\architecture\01\build\webpack.config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -32,6 +32,7 @@ module.exports = {
       '@utils': path.join(__dirname, '../src/utils'),
       '@assets': path.join(__dirname, '../src/assets'),
       '@request': path.join(__dirname, '../src/request'),
+      '@store': path.join(__dirname, '../src/store'),
     },
     modules: [path.resolve(__dirname, '../node_modules')], // 查找第三方模块只在本项目的node_modules中查找
   },
