@@ -8,7 +8,7 @@
  */
 import React, { useEffect } from "react";
 import { getToken } from "@utils";
-import { useNavigate, useL } from "react-router-dom";
+import { useNavigate,  } from "react-router-dom";
 
 const PrivateRoute = ({ children }) => {
   const navigator = useNavigate();

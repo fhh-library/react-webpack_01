@@ -1,4 +1,10 @@
 /**
+ * 开发 or 生产
+ * @param isDev
+ * @returns
+ */
+export const isDev = process.env.NODE_ENV === 'development';
+/**
  * 设置token
  * @param token
  * @returns

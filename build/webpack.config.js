@@ -31,6 +31,7 @@ module.exports = {
       '@components': path.join(__dirname, '../src/components'),
       '@utils': path.join(__dirname, '../src/utils'),
       '@assets': path.join(__dirname, '../src/assets'),
+      '@request': path.join(__dirname, '../src/request'),
     },
     modules: [path.resolve(__dirname, '../node_modules')], // 查找第三方模块只在本项目的node_modules中查找
   },

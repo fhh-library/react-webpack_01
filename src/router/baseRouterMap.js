@@ -2,7 +2,7 @@
  * @Author: fuyiwei 1157704750@qq.com
  * @Date: 2024-12-14 16:13:16
  * @LastEditors: fuyiwei 1157704750@qq.com
- * @LastEditTime: 2024-12-14 19:34:52
+ * @LastEditTime: 2024-12-14 19:52:00
  * @FilePath: \github\react-webpack_01\src\router\baseRouterMap.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -70,7 +70,7 @@ const globalRoutes = [
   //其他没有被注册过的路径统一重定位到login
   {
     path: "*",
-    element: <Navigate to="/login" />,
+    element: () => <Navigate to="/login" />,
   },
 ];
 

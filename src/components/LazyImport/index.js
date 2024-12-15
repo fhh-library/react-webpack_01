@@ -6,11 +6,12 @@
  * @FilePath: \l\architecture\02\src\components\LazyImport\index.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-import React, { Suspense } from 'react'
+import React, { Suspense } from 'react';
+import './index.less';
 
 export const LazyLoading = () => {
   return (
-    <div>
+    <div className='lazyLoading'>
       转圈圈·····
       {/* <Spin spinning /> */}
     </div>
